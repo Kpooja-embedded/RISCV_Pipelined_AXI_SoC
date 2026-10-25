@@ -1,0 +1,56 @@
+# ===========================
+# Xilinx Vivado Project Files
+# ===========================
+
+# Vivado Cache & IP User Files
+*.cache/
+*.ip_user_files/
+*.hw/
+
+# Synthesis & Implementation Runs (Large Binary Artifacts)
+*.runs/
+
+# Simulation Output Files
+*.sim/
+
+# Vivado Journal & Log Files
+vivado*.jou
+vivado*.log
+vivado*.str
+vivado*.pb
+
+# Checkpoint Files (Large)
+*.dcp
+
+# Compiled Simulation Objects
+*.wdb
+*.obj
+*.exe
+
+# ===========================
+# Python Generated Artifacts
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+gen_*.py
+
+# ===========================
+# OS Generated Files
+# ===========================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===========================
+# Editor Config
+# ===========================
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===========================
+# Git Submodules (if unused)
+# ===========================
+RISC_5/
